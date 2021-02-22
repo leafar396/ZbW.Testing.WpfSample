@@ -4,6 +4,7 @@ using ZbW.Testing.WpfSample.Libs.IpInfoInterface.Api;
 
 namespace ZbW.Testing.WpfSample.Client.Services
 {
+    // Test
     internal class IpInfoReader
     {
         private readonly IIpInfoApi _ipInfoApi;
