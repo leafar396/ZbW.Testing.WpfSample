@@ -17,4 +17,4 @@ build_script:
 - cmd: dotnet build ZbW.Testing.WpfSample.sln
 artifacts:
 - path: ZbW.Testing.WpfSample.Client\bin\$(configuration)\netcoreapp3.1
-name: ZbW.WpfSample
+  name: ZbW.WpfSample
