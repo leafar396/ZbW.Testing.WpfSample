@@ -12,7 +12,7 @@ dotnet_csproj:
   file_version: '{version}'
   informational_version: '{version}'
 before_build:
-- cmd: nuget restore
+- cmd: dotnet restore
 build_script:
 - cmd: dotnet build ZbW.Testing.WpfSample.sln
 - cmd: dotnet test ZbW.Testing.WpfSample.Client.IntegrationTests\ZbW.Testing.WpfSample.Client.IntegrationTests.csproj
